@@ -1,0 +1,21 @@
+{
+  "name": "MA32 8300 decode",
+  "apiVersion": "1.0.0",
+  "author": "Sharonov",
+  "version": "0.0.1",
+  "description": "",
+  "extensions": {
+    "MA32 8300 decode": {
+      "type": "DigitalMeasurement",
+      "entryPoint": "DigitalMeasurement.MyDigitalMeasurer",
+      "metrics": {
+        "num_of_iters": {
+          "name": "DEV statistics",
+          "notation": "see log.txt",
+			"units": "times"
+			
+        }
+      }
+    }
+  }
+}
